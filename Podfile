@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '6.0'
 
-target :NocillaTests, :exclusive => true do
+target :NocillaTests do
    inhibit_all_warnings!
 
    pod 'MKNetworkKit', '~> 0.87'
